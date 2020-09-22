@@ -1,10 +1,10 @@
 <meta charset="utf-8">  
 <?php
 
-    $servername = "127.0.0.1:3306";
+    $servername = "bancodamassaa.cmu6spr4pz8a.us-east-1.rds.amazonaws.com:3306";
     $database = "renap";
-    $username = "root";
-    $password = "";
+    $username = "admin";
+    $password = "admin123";
 
     $conn = new mysqli($servername, $username, $password, $database);
 
