@@ -8,6 +8,8 @@ $sqlQuery = "select u.idUser,u.nome,u.login,u.tipo from usuario u where login='$
 
 $resultLogin = $conn->query($sqlQuery) or die($conn->error);
 
+echo $resultLogin;
+
 if(mysqli_affected_rows($conn) > 0){
     while($result = $resultLogin->fetch_array()){
         session_start();
@@ -15,6 +17,8 @@ if(mysqli_affected_rows($conn) > 0){
         $_SESSION['nomeUsuario'] = $result["nome"];
         $_SESSION['loginUsuario'] = $result["login"];
         $_SESSION['tipoUsuario'] = $result["tipo"];
+        
+        echo $result["nome"];        
     }
 
     header("location:index.php");
