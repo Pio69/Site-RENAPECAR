@@ -2,7 +2,7 @@
 <?php
 
     $servername = "bancodamassaa.cmu6spr4pz8a.us-east-1.rds.amazonaws.com:3306";
-    $database = "renap";
+    $database = "bancodamassaa";
     $username = "admin";
     $password = "admin123";
 
