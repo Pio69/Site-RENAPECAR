@@ -1,7 +1,7 @@
 <meta charset="utf-8">  
 <?php
 
-    $servername = "bancodamassaa.cmu6spr4pz8a.us-east-1.rds.amazonaws.com:3306";
+    $servername = "renapcar.cmu6spr4pz8a.us-east-1.rds.amazonaws.com";
     $database = "renapcar";
     $username = "admin";
     $password = "admin123";
